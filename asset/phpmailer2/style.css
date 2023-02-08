@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #aed768;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+.container .innersd:hover .lower {
+  transform: translateY(25%);
+  background: #e7d8c5;
+}
+.container .innersmp:hover .lower {
+  transform: translateY(25%);
+  background: #e7d8c5;
+}
+.container .innersma:hover .lower {
+  transform: translateY(25%);
+  background: #e7d8c5;
+}
+.container .inneralumni:hover .lower {
+  transform: translateY(25%);
+  background: #e7d8c5;
+}
+.container .innerprivat:hover .lower {
+  transform: translateY(25%);
+  background: #e7d8c5;
+}
+.container:hover .features-list {
+  opacity: 1;
+}
+.container:hover span {
+  transform: translateY(35px);
+}
+.container:hover .content h2 {
+  opacity: 0;
+}
+.container:hover .image {
+  width: 50%;
+}
+
+.container:hover .cta {
+  background: white;
+  color: #151414;
+}
+.innersd {
+  height: 500px;
+  background: linear-gradient(45deg, rgba(18, 18, 18, 0.1), rgba(18, 18, 18, 0.025)), url(img/tugu1.jpg);
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.innersmp {
+  height: 500px;
+  background: linear-gradient(45deg, rgba(18, 18, 18, 0.1), rgba(18, 18, 18, 0.025)), url(img/tugu1.jpg);
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.innersma {
+  height: 500px;
+  background: linear-gradient(45deg, rgba(18, 18, 18, 0.1), rgba(18, 18, 18, 0.025)), url(img/sma_p.jpg);
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.inneralumni {
+  height: 500px;
+  background: linear-gradient(45deg, rgba(18, 18, 18, 0.1), rgba(18, 18, 18, 0.025)), url(img/alumni_p.jpg);
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.innerprivat {
+  height: 500px;
+  background: linear-gradient(45deg, rgba(18, 18, 18, 0.1), rgba(18, 18, 18, 0.025)), url(img/privat_p.jpg);
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  min-height: 50%;
+  color: white;
+}
+.content span {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  transition: all 05s ease;
+}
+.image {
+  width: 65%;
+  object-fit: contain;
+  position: absolute;
+  transition: all 0.5s ease;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-60%);
+}
+.lower {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  flex-direction: column;
+  background: transparent;
+  position: relative;
+  transform: translateY(60%);
+  transition: all 0.5s ease;
+  min-height: 40%;
+}
+.features-list {
+  text-align: center;
+  padding: 15px;
+  list-style: none;
+  opacity: 0;
+  width: 100;
+  transition: all 0.2s ease;
+}
+.features-list li .untuk {
+  font-weight: bold;
+}
+.features-list li:before {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 10px;
+  border-top: 3px solid #424fc6;
+  border-left: 3px solid #424fc6;
+  left: -15px;
+  top: 5px;
+  transform: rotate(-130deg);
+}
+.cta {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 100;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

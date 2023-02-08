@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+background: #E3FFB4;
+}
+.form-group{
+ padding: 10px;
+}
+.fg1{
+background: #AED768;
+margin: 3px;
+}
+.volum{
+border: 2px solid black;
+padding: 5px;
+}
+a{
+text-decoration: none;
+color: #008037;
+}
+.panah {
+  background: rgb(234, 252, 135);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
+.panah a {
+  color: red !important;
+}
+.panah a:hover {
+  color: black !important;
+}
+footer{
+	position: relative;
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}

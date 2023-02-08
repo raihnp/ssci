@@ -1,0 +1,344 @@
+/*+++++++++++++++++++++++++++++++++VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV+++ RESPONSIVE ++++++++++++++++++++++++++++++++++*/
+
+ @media (max-width: 575.98px) { 
+  /*===== navbar =====*/
+    nav {
+    justify-content: flex-end;
+    height: 0px;
+  }
+  .menu-toggle {
+    margin-top: 50px;
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(34, 90, 58, 0.5);
+    z-index: -1;
+    transform: translateY(-100%);
+    transition: all 1s;
+  }
+  nav ul li a {
+    font-size: 18px;
+  }
+  nav ul.slide {
+    transform: translateY(0);
+  }
+  /*===============jumbotron================*/
+  .jumbotron {
+    margin-top: 50px;
+    min-height: 600px;
+  }
+  .jumbotron .satu {
+    margin-top: -40px;
+    width: 100%;
+  }
+  .jumbotron .dua {
+    margin-top: 90%;
+    margin-left: 0px;
+    width: 40%;
+  }
+  .jumbotron .duasatu {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0px;
+    font: 1.6rem sans-serif;
+  }
+  .jumbotron .duadua {
+    width: 90%;
+    margin-left: 0px;
+    font: 1.1rem sans-serif;
+  }
+ 
+  /*====artikel=====*/
+  .d-md-none .row hr {
+    border: 2px solid black;
+  }
+  .artikel{
+    text-align: center;
+    min-height: 530px;
+  }
+  .artikel .pisah{
+  font-family: Yellowtail;
+  font-size: 50px;
+}
+  .artikel img{
+    width: 100%;
+  }
+  .artikel .satu{
+    text-align: center;
+    margin-top: 10px;
+    font: 1.5rem sans-serif;
+  }
+.artikel .dua{
+  padding: 10px;
+  width: 100%;
+  font: 1.2rem sans-serif;
+}
+.artikel .tiga{
+  text-decoration: none;
+  font: 1.2rem sans-serif;
+  background:  #AED768;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.artikel .tiga:hover{
+  background:  #008037;
+}
+.col-md-5{
+  min-height: 230px;
+}
+/*====== video kita =====*/
+.video h1{
+  text-align: center;
+}
+/*======Program kita===============*/
+.car .row hr {
+  border: 2px solid black;
+}
+.car .pisah {
+  font-family: Yellowtail;
+  font-size: 50px;
+  }
+  /*==============Promo kita======*/
+  .promo h1{
+  text-align: center;
+}
+.overlay img {
+  max-width: 100%;
+  box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+}
+#gambar{
+  padding-bottom: 10px;
+}
+/*==============tentor kita======*/
+  .tentor h1{
+  text-align: center;
+}
+/*==============testimoni kita======*/
+  .testimoni1 h1{
+  text-align: center;
+}
+  /* ===== Hubungi kita ====== */
+  .alamat h1{
+    text-align: center;
+  }
+  .alamat .a {
+    margin-left: 5px;
+    width: 97%;
+  background: yellow;
+}
+/*===============pdf=====================*/
+.juk{
+  padding: 20px;
+}
+/*=====================footer===================*/
+.xx1 .xx1b{
+  left: 20%;
+}
+}
+
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+  /*===== navbar =====*/
+    nav {
+    justify-content: flex-end;
+    margin-right: 10px;
+    height: 0px;
+  }
+  .menu-toggle {
+    margin-top: 50px;
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(34, 90, 58, 0.5);
+    z-index: -1;
+    transform: translateY(-100%);
+    transition: all 1s;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  nav ul.slide {
+    transform: translateY(0);
+  }
+   /*===============jumbotron================*/
+  .jumbotron {
+    margin-top: 50px;
+    min-height: 785px;
+  }
+  .jumbotron .satu {
+    margin-top: -40px;
+    width: 100%;
+  }
+  .jumbotron .dua {
+    margin-top: 80%;
+    margin-left: 0px;
+    width: 40%;
+  }
+  .jumbotron .duasatu {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0px;
+    font: 1.8rem sans-serif;
+  }
+  .jumbotron .duadua {
+    width: 70%;
+    margin-left: 0px;
+    font: 1.2rem sans-serif;
+  }
+   /*====artikel=====*/
+ .artikel{
+  text-align: center;
+  min-height: 550px;
+  }
+  .artikel .satu{
+    text-align: center;
+    margin-top: 10px;
+    font: 1.5rem sans-serif;
+  }
+.artikel .dua{
+  margin-left: 15%;
+  padding: 10px;
+  width: 70%;
+  font: 1.2rem sans-serif;
+}
+.artikel .tiga{
+  text-decoration: none;
+  font: 1.2rem sans-serif;
+  background:  #AED768;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.artikel .tiga:hover{
+  background:  #008037;
+}
+/*====== video kita =====*/
+.video h1{
+  text-align: center;
+}
+/*======Program kita===============*/
+.car .pisah {
+  font-family: Yellowtail;
+  font-size: 50px;
+  }
+  /* ===== Hubungi kita ====== */
+  .alamat h1{
+    text-align: center;
+  }
+  .alamat .a {
+  margin-left: 10px;
+  background: yellow;
+}
+/*=====================footer===================*/
+.xx1 .xx1b{
+  left: 22%;
+}
+}
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+
+     /*===== navbar =====*/
+    nav {
+    justify-content: flex-end;
+    margin-right: 10px;
+    height: 0px;
+  }
+  .menu-toggle {
+    margin-top: 50px;
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(34, 90, 58, 0.5);
+    z-index: -1;
+    transform: translateY(-100%);
+    transition: all 1s;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  nav ul.slide {
+    transform: translateY(0);
+  }
+  /*===== jumbotron =====*/
+.jumbotron {
+  min-height: 500px;
+}
+.jumbotron .satu {
+  margin-top: 30px;
+}
+.jumbotron .dua {
+  margin-left: 50px;
+  width: 40%;
+  margin-top: 50px;
+}
+.jumbotron .duasatu {
+  margin-top: 20px;
+  margin-left: 50px;
+  font: 1.5rem sans-serif;
+}
+.jumbotron .duadua {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+/*===== artikel ======*/
+.artikel {
+  min-height: 440px;
+}
+.artikel .satu{
+  margin-top: 10px;
+  font: 1.5rem sans-serif;
+  font-weight: bold;
+}
+.artikel .dua{
+  font: 1.2rem sans-serif;
+}
+.artikel .tiga{
+  text-decoration: none;
+  font: 1.2rem sans-serif;
+  background:  #AED768;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.artikel .tiga:hover{
+  background:  #008037;
+}
+/* ===== testimoni ===== */
+
+}
+.testimoni {
+  min-height: 550px;
+}
+/* ==== iklan ======= */
+.iklan{
+  min-height: 560px;
+}
+.iklan img {
+  max-width: 100%;
+  height: auto;
+}
+}
